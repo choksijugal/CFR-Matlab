@@ -120,5 +120,4 @@ hold on
 title('Crest Factor Reduction')
 #plot(linspace(t(0),t(-1),n+1),zeros(int(n)+1),'r+')
 
-
 pause(waitforbuttonpress)

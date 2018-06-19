@@ -57,4 +57,5 @@ function [Maxtab, Mintab] = peakdet(v,delta,thresh,x)
         Maxtab= zeros(1,3);     
     end
 end
+disp(Maxtab)
 endfunction
