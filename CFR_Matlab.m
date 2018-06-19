@@ -40,9 +40,9 @@ for it = 0:(clip_stages)-1
         mintab(:,2)=mintab(:,2)+thresh;
         maxtab=maxtab(2:end,:)
         mintab=mintab(2:end,:)
-   %%%  ii=(maxtab(:,1)<0);
+   %%%  ii=where(maxtab(:,1)<0);
    %%%  maxtab = delete(maxtab, ii, axis=0)
-   %%%  ii=(mintab(:,1)>0)
+   %%%  ii=where(mintab(:,1)>0)
    %%%  mintab = delete(mintab, ii, axis=0)
         peaks=[(maxtab);(mintab)]
 
